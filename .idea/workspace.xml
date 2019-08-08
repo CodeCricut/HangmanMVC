@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4af94be8-24c8-45ec-aeb7-1f4ef13e2161" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CompanyNoteTaker/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanyNoteTaker/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanyNoteTaker/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanyNoteTaker/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanyNoteTaker/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanyNoteTaker/CompanyNoteTaker.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanyNoteTaker/src/controller/CredentialsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanyNoteTaker/src/controller/NoteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanyNoteTaker/src/controller/PersonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanyNoteTaker/src/model/AccountCredentials.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanyNoteTaker/src/model/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanyNoteTaker/src/model/SystemData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanyNoteTaker/src/model/noteSaveStrategies/LocalNoteSave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanyNoteTaker/src/model/noteSaveStrategies/NoteSaveStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanyNoteTaker/src/model/noteSaveStrategies/RemoteNoteSave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanyNoteTaker/src/model/persons/Administrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanyNoteTaker/src/model/persons/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanyNoteTaker/src/model/persons/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanyNoteTaker/src/util/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanyNoteTaker/src/util/UserInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanyNoteTaker/src/view/CredentialsView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanyNoteTaker/src/view/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanyNoteTaker/src/view/NoteTakerAppView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanyNoteTaker/src/view/NoteView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CompanyNoteTaker/src/view/PersonView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataStructuresAndAlgoriths-YoutubeTutorial/src/LinkedList/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataStructuresAndAlgoriths-YoutubeTutorial/src/QueueStructure/IntQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataStructuresAndAlgoriths-YoutubeTutorial/src/QueueStructure/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataStructuresAndAlgoriths-YoutubeTutorial/src/stackStructure/IntStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DataStructuresAndAlgoriths-YoutubeTutorial/src/stackStructure/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dependency-Inversion_Note-Taking-App/src/model/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dependency-Inversion_Note-Taking-App/src/model/Notepad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dependency-Inversion_Note-Taking-App/src/model/noteDatasources/NoteDatasource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dependency-Inversion_Note-Taking-App/src/model/noteDatasources/NoteLocalDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dependency-Inversion_Note-Taking-App/src/model/noteDatasources/NoteRemoteDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dependency-Inversion_Note-Taking-App/src/model/noteDatasources/NoteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dependency-Inversion_Note-Taking-App/src/tests/NoteRepositoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dependency-Inversion_Note-Taking-App/src/tests/NoteTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dependency-Inversion_Note-Taking-App/src/tests/NotepadTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dependency-Inversion_Note-Taking-App/src/ui/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dependency-Inversion_PersonDatabase/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dependency-Inversion_PersonDatabase/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dependency-Inversion_PersonDatabase/src/exceptions/PersonNotInDatabaseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dependency-Inversion_PersonDatabase/src/model/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dependency-Inversion_PersonDatabase/src/model/person/DefaultPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dependency-Inversion_PersonDatabase/src/model/person/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dependency-Inversion_PersonDatabase/src/model/personDatabase/PersonDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dependency-Inversion_PersonDatabase/src/model/personDatabase/PersonDatabaseDefault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dependency-Inversion_PersonDatabase/src/model/personRepository/DefaultPersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dependency-Inversion_PersonDatabase/src/model/personRepository/PersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dependency-Inversion_PersonDatabase/src/tests/DefaultPersonRepositoryTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dependency-Inversion_PersonDatabase/src/tests/DefaultPersonTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dependency-Inversion_PersonDatabase/src/tests/PersonDatabaseDefaultTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dependency-Inversion_PersonDatabase/src/tests/TestFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dependency-Inversion_PersonDatabase/src/ui/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dungeon-Crawler/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dungeon-Crawler/src/exceptions/DoorDirectionNotValid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dungeon-Crawler/src/model/Door.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dungeon-Crawler/src/model/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Dungeon-Crawler/src/utilities/RoomUtilites.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/.idea/dictionaries/ajori.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/src/beta/BetaMapPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/src/beta/SeedMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/src/beta/StatsRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/src/beta/StatsWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/src/exceptions/InvalidInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/src/exceptions/NoFreeDoors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/src/game/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/src/game/Navigator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/src/model/Fighter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/src/model/Inventory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/src/model/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/src/model/TradeBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/src/model/persons/Enemy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/src/model/persons/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/src/model/persons/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/src/model/persons/Trader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/src/ui/CellView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/src/ui/InventoryView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/src/ui/MapView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/src/ui/UIView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/src/ui/viewHeader/CoordinateViewHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/src/ui/viewHeader/HealthViewHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/src/ui/viewHeader/ViewHeader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/src/util/DoorUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/src/util/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/src/util/MapUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/src/world/Door.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/src/world/IMapGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/src/world/Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/src/world/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/src/world/dungeonWorld/DungeonMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/src/world/dungeonWorld/DungeonMapGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DungeonCrawler2.0/src/world/dungeonWorld/DungeonRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Hangman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/Alphabet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/UserInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/view/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JavaFx-Snake1/src/sample/application.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MP3-Reader_DZone-Project/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MP3-Reader_DZone-Project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewBoston-JavaFx/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewBoston-JavaFx/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewBoston-JavaFx/src/basicLayout/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewBoston-JavaFx/src/checkBox/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewBoston-JavaFx/src/choiceBox/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewBoston-JavaFx/src/closingApplication/AlertBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewBoston-JavaFx/src/closingApplication/ConfirmBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewBoston-JavaFx/src/closingApplication/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewBoston-JavaFx/src/comboBox/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewBoston-JavaFx/src/communicatingBetweenWindows/AlertBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewBoston-JavaFx/src/communicatingBetweenWindows/ConfirmBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewBoston-JavaFx/src/communicatingBetweenWindows/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewBoston-JavaFx/src/creatingAlertBoxes/AlertBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewBoston-JavaFx/src/creatingAlertBoxes/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewBoston-JavaFx/src/cssThemesStyle/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewBoston-JavaFx/src/cssThemesStyle/Viper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewBoston-JavaFx/src/embeddingLayouts/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewBoston-JavaFx/src/extractInput/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewBoston-JavaFx/src/gridPane/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewBoston-JavaFx/src/listView/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewBoston-JavaFx/src/menus/AlertBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewBoston-JavaFx/src/menus/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewBoston-JavaFx/src/radioMenuItem/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewBoston-JavaFx/src/switchingScenes/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewBoston-JavaFx/src/tableView/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewBoston-JavaFx/src/tableView/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../NewBoston-JavaFx/src/treeView/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RandomDungeonExplorer/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RandomDungeonExplorer/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RandomDungeonExplorer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RandomDungeonExplorer/src/exceptions/InvalidInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RandomDungeonExplorer/src/exceptions/MapDoesntContainTileAtPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RandomDungeonExplorer/src/exceptions/NoFreeDoorsAvailableInRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RandomDungeonExplorer/src/exceptions/TileExistsAtPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RandomDungeonExplorer/src/model/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RandomDungeonExplorer/src/model/SeedMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RandomDungeonExplorer/src/model/map/GameMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RandomDungeonExplorer/src/model/map/Map.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RandomDungeonExplorer/src/model/mapGenerator/MapGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RandomDungeonExplorer/src/model/mapGenerator/StatsWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RandomDungeonExplorer/src/model/tiles/Door.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RandomDungeonExplorer/src/model/tiles/DungeonRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RandomDungeonExplorer/src/model/tiles/Tile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RandomDungeonExplorer/src/tests/GameMapTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RandomDungeonExplorer/src/tests/MapGeneratorTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RandomDungeonExplorer/src/tests/StatsRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RandomDungeonExplorer/src/ui/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RandomDungeonExplorer/src/ui/Navigator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RandomDungeonExplorer/src/util/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RandomDungeonExplorer/src/util/MapUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Space-Explorer" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UdemyPracticeProblems/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UdemyPracticeProblems/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UdemyPracticeProblems/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UdemyPracticeProblems/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UdemyPracticeProblems/UdemyPracticeProblems.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UdemyPracticeProblems/src/emailapp/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UdemyPracticeProblems/src/emailapp/EmailApp.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/View.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="212">
+              <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+              <folding>
+                <element signature="e#99#100#0" expanded="true" />
+                <element signature="e#135#136#0" expanded="true" />
+                <element signature="e#1039#1040#0" expanded="true" />
+                <element signature="e#1075#1076#0" expanded="true" />
+                <element signature="e#1142#1143#0" expanded="true" />
+                <element signature="e#1178#1179#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/util/UserInput.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1734">
+              <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/Hangman.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="566">
+              <caret line="118" selection-start-line="118" selection-end-line="118" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1857#1858#0" expanded="true" />
+                <element signature="e#1888#1889#0" expanded="true" />
+                <element signature="e#4133#4134#0" expanded="true" />
+                <element signature="e#4180#4181#0" expanded="true" />
+                <element signature="e#4262#4263#0" expanded="true" />
+                <element signature="e#4306#4307#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/util/Alphabet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#570#571#0" expanded="true" />
+                <element signature="e#660#661#0" expanded="true" />
+                <element signature="e#726#727#0" expanded="true" />
+                <element signature="e#772#773#0" expanded="true" />
+                <element signature="e#818#819#0" expanded="true" />
+                <element signature="e#866#867#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>common</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/util/Alphabet.java" />
+        <option value="$PROJECT_DIR$/src/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/view/View.java" />
+        <option value="$PROJECT_DIR$/src/model/Game.java" />
+        <option value="$PROJECT_DIR$/src/model/Hangman.java" />
+        <option value="$PROJECT_DIR$/src/util/UserInput.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/libraries/courserajava.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HangmanMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HangmanMVC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HangmanMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HangmanMVC" type="462c0819:PsiDirectoryNode" />
+              <item name="dictionary" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HangmanMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HangmanMVC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HangmanMVC" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="model.Game" />
+      <module name="HangmanMVC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Game" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4af94be8-24c8-45ec-aeb7-1f4ef13e2161" name="Default Changelist" comment="" />
+      <created>1564973386371</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564973386371</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2777778" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.21699347" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.8398385" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.26797387" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.34117648" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32974428" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" x="1758" y="-89" width="961" height="952" id="PlantUML" order="8" type="WINDOWED" weight="0.25143266" />
+    </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/model/Game.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/model/Hangman.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/model/Hangman.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/model/Hangman.java</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/model/Hangman.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/model/Hangman.java</url>
+          <line>85</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/dictionary/words.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#866#867#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+          <folding>
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#1039#1040#0" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+            <element signature="e#1142#1143#0" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Hangman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1857#1858#0" expanded="true" />
+            <element signature="e#1888#1889#0" expanded="true" />
+            <element signature="e#4133#4134#0" expanded="true" />
+            <element signature="e#4180#4181#0" expanded="true" />
+            <element signature="e#4262#4263#0" expanded="true" />
+            <element signature="e#4306#4307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/Alphabet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/UserInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1734">
+          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>courserajava</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
